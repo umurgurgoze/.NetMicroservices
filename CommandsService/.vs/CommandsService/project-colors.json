@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0b8db13b-8a03-4f25-bce0-89fc8ae8423d": {
+      "ProjectGuid": "0b8db13b-8a03-4f25-bce0-89fc8ae8423d",
+      "DisplayName": "CommandsService",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

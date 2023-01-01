@@ -1,0 +1,22 @@
+﻿
+syntax = "proto3";
+
+option csharp_namespace = "PlatformService";
+
+service GrpcPlatform{
+	rpc GetAllPlatforms (GetAllRequest) returns (PlatformResponse);
+	//rpc => remote procedure call.Servislerdeki değişikliklerin otomatik iletilmesini sağlıyor.
+}
+
+message GetAllRequest {}
+
+message GrpcPlatformModel{
+	int32 platformId = 1;
+	string name = 2;
+	string publisher = 3;
+	//Bu numaralar pozisyon belirtiyor.Aynı tablolardaki gibi.1.pozisyonda Id, 2.pozisyonda name, 3.pozisyonda publisher olacak.
+}
+
+message PlatformResponse{
+	repeated GrpcPlatformModel platform = 1;	
+}

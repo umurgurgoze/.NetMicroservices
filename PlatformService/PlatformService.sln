@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformService", "PlatformService\PlatformService.csproj", "{D0D1320E-DD80-4FFD-A2FA-C785B83C430D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "K8S", "K8S", "{2F8F372E-6DA3-4BCD-A25E-349834D96576}"
+	ProjectSection(SolutionItems) = preProject
+		..\K8S\commands-depl.yaml = ..\K8S\commands-depl.yaml
+		..\K8S\ingress-srv.yaml = ..\K8S\ingress-srv.yaml
+		..\K8S\local-pvc.yaml = ..\K8S\local-pvc.yaml
+		..\K8S\mssql-plat-depl.yaml = ..\K8S\mssql-plat-depl.yaml
+		..\K8S\platforms-depl.yaml = ..\K8S\platforms-depl.yaml
+		..\K8S\platforms-np-srv.yaml = ..\K8S\platforms-np-srv.yaml
+		..\K8S\rabbitmq-depl.yaml = ..\K8S\rabbitmq-depl.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0D1320E-DD80-4FFD-A2FA-C785B83C430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D1320E-DD80-4FFD-A2FA-C785B83C430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D1320E-DD80-4FFD-A2FA-C785B83C430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D1320E-DD80-4FFD-A2FA-C785B83C430D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {093DA97E-5B62-4CB0-B039-5CFD4D2761B8}
+	EndGlobalSection
+EndGlobal

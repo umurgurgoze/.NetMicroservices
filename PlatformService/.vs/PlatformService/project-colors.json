@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d0d1320e-dd80-4ffd-a2fa-c785b83c430d": {
+      "ProjectGuid": "d0d1320e-dd80-4ffd-a2fa-c785b83c430d",
+      "DisplayName": "PlatformService",
+      "ColorIndex": 0
+    },
+    "2f8f372e-6da3-4bcd-a25e-349834d96576": {
+      "ProjectGuid": "2f8f372e-6da3-4bcd-a25e-349834d96576",
+      "DisplayName": "K8S",
+      "ColorIndex": 1
+    },
+    "77022027-1603-41b4-89c2-d5456aed72c4": {
+      "ProjectGuid": "77022027-1603-41b4-89c2-d5456aed72c4",
+      "DisplayName": "CommandsService",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
